@@ -1,0 +1,645 @@
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">Maja Tica</a>
+
+      <flag [code]="'gb'" [size]="'lg'"  [effect]="'round'" (click)="selectLanguage('gb')"></flag>
+      <flag [code]="'rs'" [size]="'lg'"  [effect]="'round'" (click)="selectLanguage('rs')"></flag>
+      <flag [code]="'de'" [size]="'lg'"  [effect]="'round'" (click)="selectLanguage('de')"></flag>
+
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">{{home}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">{{about}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">{{work}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#portfolio">{{portfolio}}</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll" href="#blog">{{ytportfolio}}</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#seminarsFestivals">{{seminarsFestivals}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">{{contact}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <!-- <div id="home" class="intro route bg-image" style="background-image: url(./assets/img/intro-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="intro-title mb-4">Maja Tica</h1>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-10">
+                    <div class="about-img">
+                      <img src="./assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">{{name}}: </span> <span>Maja Tica</span></p>
+                      <p><span class="title-s">{{profession}}: </span> <span>{{professionValue}}</span></p>
+                      <p><span class="title-s">{{email}}: </span> <span>tica.maja@yahoo.com</span></p>
+                      <p><span class="title-s">{{number}}: </span> <span>+491 59 061 287 18</span></p>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      {{about}}
+                    </h5>
+                  </div>
+                  
+                  <p class="lead">
+                    {{about1}}
+                  </p>
+
+                  <p class="lead">
+                    {{about2}}
+                  </p>
+                    
+                  <p class="lead">
+                    {{about3}}
+                  </p>
+                    
+                  <p class="lead">
+                    {{about4}}
+                  </p>
+
+                  <p class="lead">
+                    {{about5}}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(./assets/img/thumbnail.jfif)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+
+  <section id="work" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                  <p><span class="title-s">{{listOfWorks}}: </span></p>
+                  <div class="title-wrapper">
+                    <div>{{ workItem1 }}</div>
+                    <div>{{ workItem2 }}</div>
+                    <div>{{ workItem3 }}</div>
+                    <div>{{ workItem4 }}</div>
+                    <div>{{ workItem5 }}</div>
+                    <div>{{ workItem6 }}</div>
+                    <div>{{ workItem7 }}</div>
+                    <div>{{ workItem8 }}</div>
+                    <div>{{ workItem9 }}</div>
+                    <div>{{ workItem10 }}</div>
+                    <div>{{ workItem11 }}</div>
+                    <div>{{ workItem12 }}</div>
+                    <div>{{ workItem13 }}</div>
+                    <div>{{ workItem14 }}</div>
+                    <div>{{ workItem15 }}</div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <p><span class="title-s">{{movie}}: </span></p>
+                <div class="title-wrapper">
+                  <div>{{ movie1 }}</div>
+                  <div>{{ movie2 }}</div>
+                  <div>{{ movie3 }}</div>
+                </div>
+
+                <p><span class="title-s">{{theater}}: </span></p>
+                <div class="title-wrapper">
+                  <div>{{ theater1 }}</div>
+                </div>
+
+                
+                <p><span class="title-s">{{orcestrations}}: </span></p>
+                <div class="title-wrapper">
+                  <div>{{ orcestration1 }}</div>
+                  <div>{{ orcestration2 }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(./assets/img/thumbnail.jfif)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+  <!--/ Section Portfolio Star /-->
+  <section id="portfolio" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              {{portfolio}}
+            </h3>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        
+        <div class="col-md-3">
+          <div class="work-box">
+            <a href="https://soundcloud.com/maja-tica/splet-bunjevackih-pesama" target="_blank">
+              <div class="work-img">
+                <img src="./assets/img/work-7.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Splet bunjevačkih pesama, 2023</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">For female voice and mixed three-part choir</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="work-box">
+            <a href="https://soundcloud.com/maja-tica/evening-foreplays-2021-for-piano-four-hands" target="_blank">
+              <div class="work-img">
+                <img src="./assets/img/image-new-2022.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Evening Forplays, 2021</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">For piano, four hands</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/kalamos-fuga" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/work-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Kalamos Fuga</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Premiered by Kalamos quintet (Zagreb, CRO)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/carousel-for-saxophone-quartet-and-electronics" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/work-1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Carousel for saxophone quartet and electronic</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Premiered by Rever saxophone quartet at the MDW Universität für Musik und darstellende Kunst Wien
+                          May 2022</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/war-scenes" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/work-3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">War scenes</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Music made for the documentary "Dah zivota" (A breath of life) 2013</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/atmosphere-1" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/work-3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Atmosphere 1</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Music made for the documentary "Dah zivota" (A breath of life) 2013</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/exordium" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/work-4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Exordium</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Theater music from the performance "Putujuce pozoriste Sopalovic"</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/strong-interlude" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/work-4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Strong Interlude</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Theater music from the performance "Putujuce pozoriste Sopalovic"</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/dreamy-harp-2" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/work-4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Dreamy Harp</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Theater music from the performance "Putujuce pozoriste Sopalovic"</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/spring-dance" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/work-4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Spring Dance</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Theater music from the performance "Putujuce pozoriste Sopalovic"</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/bagzz" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/w3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Bagzz for violin, 2011</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Premiered at Dani Vlade Milosevica 2011 in Banja Luka
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/insectument-bagzz-2-for" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/w2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Insectument (Bagzz 2) for mezzosoprano, violin, clarinet and percussions, 2011 -part-</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Premiered at 20th Review of composers in Belgrade, 2011.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/manufacere" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/w1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Manufacere for Tape, 2009</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Made for an opening of graphic exhibition, premiered in 2009 at concert of young authors within festival "Koma`6" in Belgrade, Serbia</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="https://soundcloud.com/maja-tica/suite-intervalika-hommage-a-bartok-2006" target="_blank">
+                <div class="work-img">
+                  <img src="./assets/img/image2006.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Suite Intervalika, Hommage a Bartok, 2006</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Piano</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Testimonials Star /-->
+  <div class="testimonials paralax-mf bg-image" style="background-image: url(./assets/img/thumbnail.jfif)">
+    <div class="overlay-mf"></div>
+
+  </div>
+
+  <!--/ Section Blog Star /-->
+  <!-- <section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              YouTube Portfolio
+            </h3>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-video">
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <iframe class="card-video" width="420" height="315" src="https://www.youtube.com/embed/AfoLC44q3YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <iframe class="card-video" width="420" height="315" src="https://www.youtube.com/embed/VeRJH_GmBQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <iframe class="card-video" width="420" height="315" src="https://www.youtube.com/embed/u-1TXLFGfsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+      <div class="row row-video">
+        <div class="col-md-2">
+ 
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <iframe class="card-video" width="420" height="315" src="https://www.youtube.com/embed/Bm8XYEo01No" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <iframe class="card-video" width="420" height="315" src="https://www.youtube.com/embed/4r8CPLhKzVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!--/ Section Blog End /-->
+
+  <section id="seminarsFestivals" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <p><span class="title-s">{{seminars}}: </span></p>
+                <div class="title-wrapper">
+                  <div>{{ seminar1 }}</div>
+                  <div>{{ seminar2 }}</div>
+                  <div>{{ seminar3 }}</div>
+                  <div>{{ seminar4 }}</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <p><span class="title-s">{{festivals}}: </span></p>
+                <div class="title-wrapper">
+                  <div>{{ festivals1 }}</div>
+                  <div>{{ festivals2 }}</div>
+                  <div>{{ festivals3 }}</div>
+                  <div>{{ festivals4 }}</div>
+                  <div>{{ festivals5 }}</div>
+                  <div>{{ festivals6 }}</div>
+                </div>
+
+                <p><span class="title-s">{{fieldWorks}}: </span></p>
+                <div class="title-wrapper">
+                  <div>{{ fieldWork1 }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(./assets/img/thumbnail.jfif)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <!-- <h5 class="title-left">
+                      Get in Touch
+                    </h5> -->
+                  </div>
+                  <div class="more-info">
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span>Johann-Friedrich-Böttger-Straße 3
+                        <br>06886 Lutherstadt Wittenberg
+                        <br>Deutschland</li>
+                      <li><span class="ion-ios-telephone"></span>+491 59 061 287 18</li>
+                      <li><span class="ion-email"></span> tica.maja@yahoo.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://www.facebook.com/MajaTicaMaja"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                      <li><a href="https://www.linkedin.com/in/maja-tica-1b3ab434/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- <div id="preloader"></div> -->
+
