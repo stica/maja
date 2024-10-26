@@ -353,11 +353,11 @@ export class InitialComponent {
   get about4(): string {
     switch (this.selectedCountryCode) {
       case 'gb':
-        return 'She collaborated with ensembles and musicians such as Banja Luka String Quartet (BiH),\n Trag Etno Group (BIH), Belcanto Chamber Ensemble (BIH), Banja Luka Philharmonic (BiH),\n Libertango Quintet (BIH), Kalamos Wind Quintet (Zagreb, CRO),\n Wittenberg Big Band (Lutherstadt Wittenberg, DE), Rever Saxophon Quartet (Wien, AUT), Veljko Klenovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA).';
+        return 'She collaborated with ensembles and musicians such as Banja Luka String Quartet (BiH),\n Trag Etno Group (BIH), Belcanto Chamber Ensemble (BIH), Banja Luka Philharmonic (BiH),\n Libertango Quintet (BIH), Kalamos Wind Quintet (Zagreb, CRO),\n Wittenberg Big Band (Lutherstadt Wittenberg, DE), Rever Saxophon Quartet (Wien, AUT), Veljko Klenkovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA).';
       case 'rs':
-        return 'Sarađivala je sa ansamblima i muzičarima kao što su Banjalučki gudački kvartet (BiH), \n Etno grupa Trag (BIH), kamerni ansambl Belcanto (BIH), Banjalučka filharmonija(BiH), kvintet Libertango (BIH), \n duvački kvintet Kalamos (Zagreb,CRO), Wittenberg Big Band (Lutherstadt Wittenberg, DE),\n Rever Saxophon Quartet (Wien,AUT), Veljko Klenovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA).';
+        return 'Sarađivala je sa ansamblima i muzičarima kao što su Banjalučki gudački kvartet (BiH), \n Etno grupa Trag (BIH), kamerni ansambl Belcanto (BIH), Banjalučka filharmonija(BiH), kvintet Libertango (BIH), \n duvački kvintet Kalamos (Zagreb,CRO), Wittenberg Big Band (Lutherstadt Wittenberg, DE),\n Rever Saxophon Quartet (Wien,AUT), Veljko Klenkovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA).';
       case 'de':
-        return 'Um sich als Komponistin zu verwirklichen, arbeitet sie häufig mit Künstlern aus ihrem eigenen und anderen künstlerischen Bereichen zusammen. Auch die Zusammenarbeit mit verschiedenen Kammerensembles findet sie immer sehr inspirierend. Sie komponiert Konzertmusik, kurze Stücke für Fernesehen und Rundfunk, Werbe-Jingles, Musik für Dokumentarfilme und Theaterstücke, Veljko Klenovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA).';
+        return 'Um sich als Komponistin zu verwirklichen, arbeitet sie häufig mit Künstlern aus ihrem eigenen und anderen künstlerischen Bereichen zusammen. Auch die Zusammenarbeit mit verschiedenen Kammerensembles findet sie immer sehr inspirierend. Sie komponiert Konzertmusik, kurze Stücke für Fernesehen und Rundfunk, Werbe-Jingles, Musik für Dokumentarfilme und Theaterstücke.';
       default:
         return '';
     }
