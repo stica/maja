@@ -327,7 +327,7 @@ export class InitialComponent {
   get about2(): string {
     switch (this.selectedCountryCode) {
       case 'gb':
-        return 'She obtained her primary and secondary musical education at the Music School in Subotica, \n at the Departments of Theory and Piano. \n She continued her education at the Academy of Arts in Banja Luka (BiH) at the \n Department of Composition in the class of prof. Slobodan Atanacković. \n During her studies she held the position of a teaching assistant at the Department of Composition. \n July 2010. she graduated at the Academy of Arts in Banja Luka in the class \n of Prof. Tatjana Milošević Mijanović. \n That same';
+        return 'She obtained her primary and secondary musical education at the Music School in Subotica, \n at the Departments of Theory and Piano. \n She continued her education at the Academy of Arts in Banja Luka (BiH) at the \n Department of Composition in the class of prof. Slobodan Atanacković. \n During her studies she held the position of a teaching assistant at the Department of Composition. \n July 2010. she graduated at the Academy of Arts in Banja Luka in the class \n of Prof. Tatjana Milošević Mijanović. \n That same year, she earned a maste\'s degree in Composition at the Academy of Arts in Banja Luka.';
       case 'rs':
         return 'Osnovno i srednje muzičko obrazovanje stekla je u Muzičkoj školi u Subotici \n na odsecima Teorija i Klavir. \n Po završetku srednje škole upisuje se na Akademiju umjetnosti u Banjaluci (BiH) na \n Odsjeku za Кompoziciju u klasi prof. Slobodana Atanackovića. \n Tokom studija aktivno radi sa studentima na Odsjeku za kompoziciji kao demonstrator. \n Jula 2010. god. diplomirala je na Akademiji umjetnosti u Banjaluci u klasi \n Prof.Tatjane Milošević Mijanović. \n Iste godine počinje da radi u Muzičkoj školi \'Vlado Milošević\' u Banjaluci na predmetima  Klavir i Uvod u komponovanje';
       case 'de':
@@ -340,11 +340,11 @@ export class InitialComponent {
   get about3(): string {
     switch (this.selectedCountryCode) {
       case 'gb':
-        return 'Year 2011. she earned a master\'s degree in Composition at the Academy of Arts in Banja Luka,. \n In 2019, she moves to Germany and begins working as a composer, arranger and conductor \n in the chamber jazz orchestra Wittenberg Big Band (Lutherstadt Wittenberg, Germany). \n Since 2022, she works at the Music School in Wittenberg as teacher in the piano department.';
+        return 'In 2019, Maja Tica moves to Germany and works as a composer, arranger and conductor in the chamber jazz orchestra Wittenberg Big Band (Lutherstadt Wittenberg, Germany) \n From 2022 to 2025, she worked as a piano teacher at the Music School in Wittenberg.';
       case 'rs':
-        return '2011. god. na Akademiji umjetnosti u Banjaluci stiče zvanje master Kompozicije.\n 2019. godine seli se u Nemačku i počinje sa radom kao kompozitor, aranžer i dirigent \n u kamernom Jazz orkestru Wittenberg Big Band  (Lutherstadt Wittenberg, Nemačka).\n Od 2022. godine počinje sa radom u Muzičkoj školi u Wittenbergu na odseku za klavir.';
+        return '2011. god. na Akademiji umjetnosti u Banjaluci stiče zvanje master Kompozicije.\n 2019. godine seli se u Nemačku i počinje sa radom kao kompozitor, aranžer i dirigent \n u kamernom Jazz orkestru Wittenberg Big Band  (Lutherstadt Wittenberg, Nemačka).\n Od 2022. do 2025. zaposlena kao nastavnik klavira u Muzičkoj školi u Wittenbergu.';
       case 'de':
-        return '2019 wechselt Maja Tica erneut ihren Wohnort, dieses Mal zieht sie mit ihrer Familie nach Deutschland. Mitte 2020 beginnt sie ihre Tätigkeit in der Wittenberger Big Band (Lutherstadt Wittenberg) als Komponistin, Arrangeurin und Dirigentin. Seit 2020 ist Maja Tica als Klavierlehrerin an der Musikschule in Lutherstadt Wittenberg angestellt.';
+        return '2019 wechselt Maja Tica erneut ihren Wohnort, dieses Mal zieht sie mit ihrer Familie nach Deutschland. Mitte 2020 beginnt sie ihre Tätigkeit in der Wittenberger Big Band (Lutherstadt Wittenberg) als Komponistin, Arrangeurin und Dirigentin. Von 2022 bis 2025 war sie an der Musikschule in Lutherstadt Wittenberg als Klavierlehrerin tätig.';
       default:
         return '';
     }
@@ -353,11 +353,11 @@ export class InitialComponent {
   get about4(): string {
     switch (this.selectedCountryCode) {
       case 'gb':
-        return 'She collaborated with ensembles and musicians such as Banja Luka String Quartet (BiH),\n Trag Etno Group (BIH), Belcanto Chamber Ensemble (BIH), Banja Luka Philharmonic (BiH),\n Libertango Quintet (BIH), Kalamos Wind Quintet (Zagreb, CRO),\n Wittenberg Big Band (Lutherstadt Wittenberg, DE), Rever Saxophon Quartet (Wien, AUT), Veljko Klenkovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA).';
+        return 'She collaborated with ensembles and musicians such as Banja Luka String Quartet (BiH),\n Trag Etno Group (BIH), Belcanto Chamber Ensemble (BIH), Banja Luka Philharmonic (BiH),\n Libertango Quintet (BIH), Kalamos Wind Quintet (Zagreb, CRO),\n Wittenberg Big Band (Lutherstadt Wittenberg, DE), Rever Saxophon Quartet (Wien, AUT), Veljko Klenkovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA), Osvaldo Redondo Alfaro (CR).';
       case 'rs':
-        return 'Sarađivala je sa ansamblima i muzičarima kao što su Banjalučki gudački kvartet (BiH), \n Etno grupa Trag (BIH), kamerni ansambl Belcanto (BIH), Banjalučka filharmonija(BiH), kvintet Libertango (BIH), \n duvački kvintet Kalamos (Zagreb,CRO), Wittenberg Big Band (Lutherstadt Wittenberg, DE),\n Rever Saxophon Quartet (Wien,AUT), Veljko Klenkovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA).';
+        return 'Sarađivala je sa ansamblima i muzičarima kao što su Banjalučki gudački kvartet (BiH), \n Etno grupa Trag (BIH), kamerni ansambl Belcanto (BIH), Banjalučka filharmonija (BiH), kvintet Libertango (BIH), \n duvački kvintet Kalamos (Zagreb,CRO), Wittenberg Big Band (Lutherstadt Wittenberg, DE),\n Rever Saxophon Quartet (Wien,AUT), Veljko Klenkovski (FRA), Darya Dadykina (UA), Vitalii Kyianytsia (UA), Osvaldo Redondo Alfaro (CR).';
       case 'de':
-        return 'Um sich als Komponistin zu verwirklichen, arbeitet sie häufig mit Künstlern aus ihrem eigenen und anderen künstlerischen Bereichen zusammen. Auch die Zusammenarbeit mit verschiedenen Kammerensembles findet sie immer sehr inspirierend. Sie komponiert Konzertmusik, kurze Stücke für Fernesehen und Rundfunk, Werbe-Jingles, Musik für Dokumentarfilme und Theaterstücke.';
+        return 'Um sich als Komponistin zu verwirklichen, arbeitet sie häufig mit Künstlern aus ihrem eigenen und anderen künstlerischen Bereichen zusammen. Auch die Zusammenarbeit mit verschiedenen Kammerensembles findet sie immer sehr inspirierend. Sie komponiert Konzertmusik, kurze Stücke für Fernsehen und Rundfunk, Werbe-Jingles, Musik für Dokumentarfilme und Theaterstücke.';
       default:
         return '';
     }
@@ -370,7 +370,7 @@ export class InitialComponent {
       case 'rs':
         return '';
       case 'de':
-        return 'Maja Tica beteiligt sich sehr gerne an Projekten, die sich mit Bildung und kultureller Bereicherung junger Menschen befassen. Ihre Werke wurden bisher in Serbien, Bosnien und Herzegowina, Kroatien, Deutschland und Österreich aufgeführt.';
+        return 'Maja Tica beteiligt sich sehr gerne an Projekten, die sich mit Bildung und kultureller Bereicherung junger Menschen befassen. Ihre Werke wurden bisher in Serbien, Bosnien und Herzegowina, Kroatien, Deutschland, Österreich und Costa Rica konzertant aufgeführt.';
       default:
         return '';
     }
@@ -600,6 +600,34 @@ export class InitialComponent {
     }
   }
 
+  get workItem16(): string {
+    switch (this.selectedCountryCode) {
+      case 'gb':
+        return '“L’amour de Satie” for tenor and piano, 2025';
+      case 'rs':
+        return ',,L’amour de Satie” za tenor i klavir, 2025';
+      case 'de':
+        return '„L’amour de Satie“ für Tenor und Klavier, 2025';
+      default:
+        return '';
+    }
+  }
+
+  get workItem17(): string {
+    switch (this.selectedCountryCode) {
+      case 'gb':
+        return '“Tuning for Poulenc” for oboe, bassoon and piano, 2025';
+      case 'rs':
+        return ',,Tuning for Poulenc” za obou, fagot i klavir, 2025';
+      case 'de':
+        return '„Tuning for Poulenc“ für Oboe, Fagott und Klavier, 2025';
+      default:
+        return '';
+    }
+  }
+
+  
+  
   get seminars(): string {
     switch (this.selectedCountryCode) {
       case 'gb':
