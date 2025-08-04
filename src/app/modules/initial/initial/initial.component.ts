@@ -407,9 +407,9 @@ export class InitialComponent {
       case 'gb':
         return '“Rukovet” for mixed choir, 2004';
       case 'rs':
-        return ',,Rukovet’’ za mešoviti hor, 2004';
+        return '„Rukovet" za mešoviti hor, 2004';
       case 'de':
-        return ',,Rukovet“ für gemischten Chor, 2004';
+        return '„Rukovet“ für gemischten Chor, 2004';
       default:
         return '';
     }
@@ -420,9 +420,9 @@ export class InitialComponent {
       case 'gb':
         return '“Bells” for piano, 2005';
       case 'rs':
-        return ',,Zvona’’ za klavir, 2005';
+        return '„Zvona" za klavir, 2005';
       case 'de':
-        return ',,Bells für Klavier“ 2005';
+        return '„Bells für Klavier“ 2005';
       default:
         return '';
     }
@@ -434,7 +434,7 @@ export class InitialComponent {
       case 'gb':
         return '“Suite intervalika” for piano, 2005';
       case 'rs':
-        return ',,Svita intervalika’’ za klavir, 2005';
+        return '„Svita intervalika" za klavir, 2005';
       case 'de':
         return '„Suite Intervalika“ für Klavier, 2005';
       default:
@@ -447,7 +447,7 @@ export class InitialComponent {
       case 'gb':
         return '“Nefteno cupe” for mixed choir, 2006';
       case 'rs':
-        return ',,Nefteno čupe’’ za mešoviti hor, 2006';
+        return '„Nefteno čupe" za mešoviti hor, 2006';
       case 'de':
         return '„Nefteno cupe“ für gemischten Chor, 2006';
       default:
@@ -461,7 +461,7 @@ export class InitialComponent {
       case 'gb':
         return '“Milica and the coin” song for soprano and vibraphone, 2006';
       case 'rs':
-        return ',,Milica i novčić’’ solo pesma za sopran i vibrafon, 2006';
+        return '„Milica i novčić" solo pesma za sopran i vibrafon, 2006';
       case 'de':
         return '„Milica and the Coin“ für Sopran und Vibraphon, 2006';
       default:
@@ -474,7 +474,7 @@ export class InitialComponent {
       case 'gb':
         return '“Kaleidoscope” Variations for flute, clarinet and piano, 2007';
       case 'rs':
-        return ',,Kaleidoskop’’ varijacije za flautu, klarinet i klavir, 2007';
+        return '„Kaleidoskop" varijacije za flautu, klarinet i klavir, 2007';
       case 'de':
         return '„Kaleidoskop“ Variationen für Flöte, Klarinette und Klavier, 2007';
       default:
@@ -487,7 +487,7 @@ export class InitialComponent {
       case 'gb':
         return '“Manufacere” electronics, 2008';
       case 'rs':
-        return ',,Manufacere’’ elektronika, 2008';
+        return '„Manufacere" elektronika, 2008';
       case 'de':
         return '„Manufacere“ für Elektronik, 2008 ';
       default:
@@ -500,7 +500,7 @@ export class InitialComponent {
       case 'gb':
         return '“Modallan” for string quartet, 2008';
       case 'rs':
-        return ',,Modallan’’ za gudački kvartet, 2008';
+        return '„Modallan" za gudački kvartet, 2008';
       case 'de':
         return '„Modallan“ für Streichquartett, 2008';
       default:
@@ -513,7 +513,7 @@ export class InitialComponent {
       case 'gb':
         return '“Four symphonic portraits” for piano and orchestra, 2009';
       case 'rs':
-        return ',,Četiri simfonijska portreta’’ 2009 za klavir i simfonijski orkestar';
+        return '„Četiri simfonijska portreta" 2009 za klavir i simfonijski orkestar';
       case 'de':
         return '„Vier symphonische Porträts“ für Klavier und Orchester, 2009';
       default:
@@ -526,7 +526,7 @@ export class InitialComponent {
       case 'gb':
         return '“Aedea” for symphonic orchestra-inspired by folk epic “Mali Radojica”, 2010';
       case 'rs':
-        return ',,Aedea“ za simfonijski orkestar, 2010';
+        return '„Aedea“ za simfonijski orkestar, 2010';
       case 'de':
         return '„Aedea“ für Symphonieorchester, inspiriert vom Volksepos „Mali Radojica“ 2010';
       default:
@@ -539,7 +539,7 @@ export class InitialComponent {
       case 'gb':
         return '“Bagzz” for violin, 2011';
       case 'rs':
-        return ',,Bagzz’’ za violinu, 2011';
+        return '„Bagzz" za violinu, 2011';
       case 'de':
         return '„Bagzz“ für Violine, 2011';
       default:
@@ -552,7 +552,7 @@ export class InitialComponent {
       case 'gb':
         return '“Insectument” for mezzosoprano, violin, clarinet and percussions, 2011';
       case 'rs':
-        return ',,Insectument’’ za mecosopran, violinu, klarinet i udaraljke, 2011';
+        return '„Insectument" za mecosopran, violinu, klarinet i udaraljke, 2011';
       case 'de':
         return '„Insectument“ für Mezzosopran, Violine, Klarinette und Schlagzeug, 2011';
       default:
@@ -566,7 +566,7 @@ export class InitialComponent {
       case 'gb':
         return '“Kalamos fuga” for reed quintet/dedicated to reed Quintet “Kalamos”, 2017';
       case 'rs':
-        return ',,Kalamos fuga“ za obou, klarinet, tenor saksofon, bas klarinet i fagot, 2017';
+        return '„Kalamos fuga“ za obou, klarinet, tenor saksofon, bas klarinet i fagot, 2017';
       case 'de':
         return '„Kalamos fuga“ für Rohrblattquintett/dem Rohrblattquintett „Kalamos“ gewidmet, 2017';
       default:
@@ -579,7 +579,7 @@ export class InitialComponent {
       case 'gb':
         return '“Carousel” for saxophone quartet and electronics, 2017';
       case 'rs':
-        return ',,Ringišpil’’ za kvartet saksofona i elektroniku, 2017';
+        return '„Ringišpil" za kvartet saksofona i elektroniku, 2017';
       case 'de':
         return '„Carousel“ für Saxophonquartett und Elektronik, 2017 ';
       default:
@@ -592,7 +592,7 @@ export class InitialComponent {
       case 'gb':
         return '“Evening forplays” for piano four hands, 2021';
       case 'rs':
-        return ',,Večernje predigre” za klavir četvororučno, 2021';
+        return '„Večernje predigre” za klavir četvororučno, 2021';
       case 'de':
         return '„Abendvorspiele“ für Klavier zu vier Händen, 2021';
       default:
@@ -605,7 +605,7 @@ export class InitialComponent {
       case 'gb':
         return '“L’amour de Satie” for tenor and piano, 2025';
       case 'rs':
-        return ',,L’amour de Satie” za tenor i klavir, 2025';
+        return '„L’amour de Satie” za tenor i klavir, 2025';
       case 'de':
         return '„L’amour de Satie“ für Tenor und Klavier, 2025';
       default:
@@ -618,7 +618,7 @@ export class InitialComponent {
       case 'gb':
         return '“Tuning for Poulenc” for oboe, bassoon and piano, 2025';
       case 'rs':
-        return ',,Tuning for Poulenc” za obou, fagot i klavir, 2025';
+        return '„Tuning for Poulenc” za obou, fagot i klavir, 2025';
       case 'de':
         return '„Tuning for Poulenc“ für Oboe, Fagott und Klavier, 2025';
       default:
@@ -803,7 +803,7 @@ export class InitialComponent {
       case 'gb':
         return '“Shine in the darkness” documentary\nDirector: Nemanja Mirković, 2007';
       case 'rs':
-        return ',,Sjaj u tami’’ dokumentarni film – izbor muzike\nRežija: Nemanja Mirković, 2007';
+        return '„Sjaj u tami" dokumentarni film – izbor muzike\nRežija: Nemanja Mirković, 2007';
       case 'de':
         return '„Shine in the Darkness“ Dokumentarfilm\nRegie: Nemanja Mirković, 2007';
       default:
@@ -817,7 +817,7 @@ export class InitialComponent {
       case 'gb':
         return '“Breath of life” documentary\nDirector: Snježana Brezo, 2013';
       case 'rs':
-        return ',,Dah života’’ dokumentarni film – autorska muzika\nRežija: Snježana Brezo, 2013';
+        return '„Dah života" dokumentarni film – autorska muzika\nRežija: Snježana Brezo, 2013';
       case 'de':
         return '„Atem des Lebens“ Dokumentarfilm\nRegie: Snježana Brezo, 2013';
       default:
@@ -830,7 +830,7 @@ export class InitialComponent {
       case 'gb':
         return '“Angel´s tears” documentary\nDirector: Snježana Brezo, 2018';
       case 'rs':
-        return ',,Suze anđela‘‘ dokumentarni film – izbor muzike\nRežija: Snježana Brezo, 2018';
+        return '„Suze anđela" dokumentarni film – izbor muzike\nRežija: Snježana Brezo, 2018';
       case 'de':
         return '„Engelstränen“ Dokumentarfilm\nRegie: Snježana Brezo, 2018';
       default:
@@ -854,9 +854,9 @@ export class InitialComponent {
   get theater1(): string {
     switch (this.selectedCountryCode) {
       case 'gb':
-        return '“Traveling theater Šopalović ’’ National Theater of Republika Srpska, Banja Luka\nWriter: Ljubomir Simović\nDirector: Vladimir Lazić, 2011';
+        return '“Traveling theater Šopalović " National Theater of Republika Srpska, Banja Luka\nWriter: Ljubomir Simović\nDirector: Vladimir Lazić, 2011';
       case 'rs':
-        return ',,Putujuće pozorište Šopalović’’ – autorska muzika\nAutor: Ljubomir Simović\nRežija: Vladimir Lazić\nNarodno pozorište Republike Srpske, Banja Luka, 2011';
+        return '„Putujuće pozorište Šopalović" – autorska muzika\nAutor: Ljubomir Simović\nRežija: Vladimir Lazić\nNarodno pozorište Republike Srpske, Banja Luka, 2011';
       case 'de':
         return '„Putujuće pozorište Šopalović“\nAutor: Ljubomir Simović\nRegie: Vladimir Lazić\nNationaltheater Republike Srpske - Banja Luka, 2011';
       default:
@@ -880,11 +880,11 @@ export class InitialComponent {
   get fieldWork1(): string {
     switch (this.selectedCountryCode) {
       case 'gb':
-        return 'Particello of the compositions “Visant concert’’ and ”Oktoiha’’ by Ljubica Marić, 2011';
+        return 'Particello of the compositions “Visant concert" and ”Oktoiha" by Ljubica Marić, 2011';
       case 'rs':
-        return 'Partičelo orkestarskih kompozicija ,,Vizantijski koncert’’ i ,,Oktoiha’’ Ljubice Marić, 2011';
+        return 'Partičelo orkestarskih kompozicija „Vizantijski koncert" i „Oktoiha" Ljubice Marić, 2011';
       case 'de':
-        return 'Particello der Orchesterkompositionen ,,Vizantijski koncert’’ und ,,Oktoiha’’ von Ljubica Marić, 2011';
+        return 'Particello der Orchesterkompositionen „Vizantijski koncert" und „Oktoiha" von Ljubica Marić, 2011';
       default:
         return '';
     }
@@ -908,9 +908,9 @@ export class InitialComponent {
       case 'gb':
         return '“Three songs from Serbia” for female vocal duo and orchestra, 2022';
       case 'rs':
-        return ',,Tri pesme iz Srbije” za ženski vokalni duo i orkestar, 2022';
+        return '„Tri pesme iz Srbije” za ženski vokalni duo i orkestar, 2022';
       case 'de':
-        return ',,Drei Lieder aus Serbien“ für weibliches Gesangsduo und Orchester, 2022';
+        return '„Drei Lieder aus Serbien“ für weibliches Gesangsduo und Orchester, 2022';
       default:
         return '';
     }
@@ -921,9 +921,9 @@ export class InitialComponent {
       case 'gb':
         return '“Splet bunjevačkih pesama” for female vocal and three-part mixed choir, 2023';
       case 'rs':
-        return ',,Splet bunjevačkih pesama” za ženski glas i mešoviti troglasni hor, 2023';
+        return '„Splet bunjevačkih pesama” za ženski glas i mešoviti troglasni hor, 2023';
       case 'de':
-        return ',,Splet bunjevačkih pesama“ für Frauenstimme und gemischten dreistimmigen Chor, 2023';
+        return '„Splet bunjevačkih pesama“ für Frauenstimme und gemischten dreistimmigen Chor, 2023';
       default:
         return '';
     }
